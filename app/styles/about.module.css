@@ -1,0 +1,33 @@
+.aboutBlurb {
+  width: 70%;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.page {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.page_header {
+  color: #ff8040;
+  margin-bottom: 2vh;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.repairBtn {
+  padding: 12px 24px;
+  background-color: #0770da;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
