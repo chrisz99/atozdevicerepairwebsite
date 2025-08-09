@@ -1,0 +1,136 @@
+/* [project]/app/styles/global.module.css [app-client] (css) */
+.global-module__sMRtZa__navbar {
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+
+.global-module__sMRtZa__bottombar {
+  background-color: #333;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1vw;
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+}
+
+.global-module__sMRtZa__bottombar_largeText {
+  color: #c8c8c8;
+  padding-left: 1vw;
+  font-size: 1.5rem;
+}
+
+.global-module__sMRtZa__bottombar_smallText {
+  color: #c8c8c8;
+  font-size: 1rem;
+}
+
+.global-module__sMRtZa__navbar_links {
+  justify-content: center;
+  align-items: center;
+  column-gap: 1vw;
+  width: 100%;
+  margin-right: 15vw;
+  display: flex;
+}
+
+.global-module__sMRtZa__navbar_logo {
+  object-fit: contain;
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-height: 200px;
+}
+
+.global-module__sMRtZa__divider {
+  background-color: #ccc;
+  border-radius: 1vw;
+  width: .05vw;
+  height: 8vh;
+}
+
+.global-module__sMRtZa__small_icon {
+  width: 1vw;
+  height: 1vh;
+}
+
+.global-module__sMRtZa__navlink {
+  color: #9c9c9c;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform .3s, color .3s;
+}
+
+.global-module__sMRtZa__navlink:hover {
+  color: #8080ff;
+  transform: scale(1.5);
+}
+
+.global-module__sMRtZa__bottombar_image {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .global-module__sMRtZa__navbar_logo {
+    place-self: center;
+    max-width: 300px;
+    max-height: 150px;
+  }
+
+  .global-module__sMRtZa__navlink {
+    padding: 0;
+    font-size: 1.1rem;
+  }
+
+  .global-module__sMRtZa__navbar {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .global-module__sMRtZa__navbar_links {
+    text-align: center;
+    column-gap: 4vw;
+    width: 100%;
+  }
+
+  .global-module__sMRtZa__bottombar {
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vw;
+    width: 100%;
+  }
+
+  .global-module__sMRtZa__divider {
+    background-color: #ccc;
+    border-radius: 1vw;
+    width: .5vw;
+    height: 10vh;
+  }
+
+  .global-module__sMRtZa__bottombar_largeText {
+    color: #c8c8c8;
+    padding-left: 3vw;
+    font-size: .65rem;
+  }
+
+  .global-module__sMRtZa__bottombar_smallText {
+    color: #c8c8c8;
+    font-size: .5rem;
+  }
+
+  .global-module__sMRtZa__bottombar_image {
+    max-width: 25px;
+    max-height: 25px;
+  }
+}
+
+/*# sourceMappingURL=app_styles_global_module_742020b4.css.map*/

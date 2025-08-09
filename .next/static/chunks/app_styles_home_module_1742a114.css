@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: .7vh;
+  row-gap: 1vh;
   width: 100%;
   height: 25vh;
   display: flex;
@@ -53,19 +53,34 @@
   display: none;
 }
 
+.home-module__OXf3zW__welcome_column_header {
+  color: orange;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 .home-module__OXf3zW__welcome_column_content {
   flex-direction: column;
   align-items: center;
-  width: 60%;
-  height: 20vh;
+  width: 75%;
   padding: 1vh;
   display: flex;
 }
 
 .home-module__OXf3zW__why_column_content {
   flex-direction: row;
-  column-gap: 3vw;
+  column-gap: 2.5vw;
   margin-bottom: 5vh;
+  display: flex;
+}
+
+.home-module__OXf3zW__mobileHide {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
   display: flex;
 }
 
@@ -87,7 +102,8 @@
 
 .home-module__OXf3zW__banner_text {
   color: #f2f2f2;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -136,10 +152,9 @@
 .home-module__OXf3zW__imageBadge_Text {
   color: #262626;
   text-align: center;
-  justify-content: center;
   max-width: 40vw;
   margin-top: 1vh;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   transition: transform .4s;
   display: flex;
@@ -148,7 +163,7 @@
 
 .home-module__OXf3zW__imageBadge:hover .home-module__OXf3zW__imageBadge_Text {
   transition-delay: 80ms;
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .home-module__OXf3zW__what_column_content {
@@ -157,25 +172,23 @@
 
 @media (max-width: 768px) {
   .home-module__OXf3zW__banner {
-    width: 130vw;
+    row-gap: 1vh;
     height: 30vh;
   }
 
-  .home-module__OXf3zW__banner3 {
-    width: 130vw;
-  }
-
   .home-module__OXf3zW__banner_text {
-    font-size: 1.2rem;
-  }
-
-  .home-module__OXf3zW__banner2 {
-    width: 130vw;
+    font-size: 1.1rem;
   }
 
   .home-module__OXf3zW__welcome_column_image {
-    max-width: 250px;
+    max-width: 200px;
     max-height: 250px;
+  }
+
+  .home-module__OXf3zW__welcome_column_image_container {
+    border: .2vw solid gray;
+    max-width: 200px;
+    max-height: 200px;
   }
 
   .home-module__OXf3zW__welcome_column_content_mobile {
@@ -185,16 +198,13 @@
     justify-self: center;
     align-items: center;
     width: 100%;
-    margin-top: 3vh;
-    margin-left: 50%;
-    margin-right: 25%;
     padding: .5rem;
     display: flex;
   }
 
   .home-module__OXf3zW__welcome_column_content {
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 1vh;
   }
 
@@ -228,7 +238,6 @@
 
   .home-module__OXf3zW__why_column_content {
     flex-direction: row;
-    justify-content: center;
     column-gap: 3vw;
     margin-top: 2vh;
     display: flex;
@@ -241,22 +250,20 @@
 
   .home-module__OXf3zW__imageBadge_Text {
     justify-content: center;
-    max-width: 40vw;
+    max-width: 25vw;
     margin-top: 1vh;
-    font-size: .45rem;
+    font-size: .5rem;
   }
 
   .home-module__OXf3zW__welcome_column_header {
     text-align: center;
-    width: 25vw;
-    padding-left: 10vw;
     font-size: 1.5rem;
     display: flex;
   }
 
-  .home-module__OXf3zW__welcome_blurb h3 {
+  .home-module__OXf3zW__welcome_blurb {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
   }
 

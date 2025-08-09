@@ -1,3 +1,5 @@
+import { BottomBar } from "@/components/common/BottomBar";
+import { NavBar } from "@/components/common/NavBar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,9 +15,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes" />
       </head>
-      <body>{children}</body>
+
+      <body>
+        {" "}
+        <NavBar />
+        {children}
+        <BottomBar />
+      </body>
     </html>
   );
 }

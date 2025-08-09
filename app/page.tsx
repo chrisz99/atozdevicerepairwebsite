@@ -12,6 +12,7 @@ import LocationPhoto from "../public/assets/locationpin.png";
 import HardDiskPhoto from "../public/assets/harddisk.png";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
+import React from "react";
 
 type ImageBadgeProps = {
   src: StaticImageData;
@@ -73,10 +74,10 @@ export default function Home() {
       <div className={localstyles.banner2}>
         <h1 className={localstyles.why_column_header}>Why Choose Us?</h1>
         <div className={localstyles.why_column_content}>
-          <ImageBadge src={MicroscopePhoto} label={"While other shops / authorized service centers simply replace entire parts (or tell you it can’t be fixed), we go deeper. With micro soldering and logic board repair experience, we can often fix what others won’t even try."} />
-          <ImageBadge src={CooperationPhoto} label={"We’re not a corporate franchise, and that’s a good thing. Techs are often under pressure to push upgrades or warranty replacements. At A to Z Repairs, I give you honest, technical answers, not sales pitches."} />
+          <ImageBadge src={MicroscopePhoto} label={"While other shops / authorized service centers simply replace entire parts (or tell you it can’t be fixed), we go deeper.\n\nWith micro soldering and logic board repair experience, we can often fix what others won’t even try."} />
+          <ImageBadge src={CooperationPhoto} label={"We’re not a corporate franchise, and that’s a good thing.\n\nTechs are often under pressure to push upgrades or warranty replacements.\n\nI give you honest, technical answers, not sales pitches."} />
           <ImageBadge src={LocationPhoto} label={"Based in Peoria, Arizona. When you support A to Z Repairs, you’re supporting a local business."} />
-          <ImageBadge src={HardDiskPhoto} label={"Apple and many repair chains wipe your device as part of the repair or replacement. We work to preserve your data whenever possible because we know how valuable it is."} />
+          <ImageBadge src={HardDiskPhoto} label={"Apple and many repair chains wipe your device as part of the repair or replacement.\n\nWe work to preserve your data whenever possible because we know how valuable it is."} />
         </div>
       </div>
 
@@ -101,9 +102,17 @@ export default function Home() {
 const ImageBadge: React.FC<ImageBadgeProps> = ({ label, src }) => {
   return (
     <div className={localstyles.imageBadge}>
-      <Image unoptimized src={src} alt={label} className={localstyles.imageBadge_Image} />
-
-      <p className={localstyles.imageBadge_Text}>{label}</p>
+      <Image unoptimized src={src} alt={typeof label === "string" ? label : ""} className={localstyles.imageBadge_Image} />
+      <p className={localstyles.imageBadge_Text}>
+        {typeof label === "string"
+          ? label.split("\n").map((line, i) => (
+              <React.Fragment key={i}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))
+          : label}
+      </p>
     </div>
   );
 };

@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  row-gap: 0.7vh;
+  row-gap: 1vh;
   opacity: 0.85;
 }
 
@@ -53,10 +53,18 @@
   display: none;
 }
 
+.welcome_blurb {
+}
+
+.welcome_column_header {
+  color: orange;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 .welcome_column_content {
   display: flex;
-  width: 60%;
-  height: 20vh;
+  width: 75%;
   padding: 1vh;
   flex-direction: column;
   align-items: center;
@@ -65,11 +73,18 @@
 .why_column_content {
   flex-direction: row;
   display: flex;
-  column-gap: 3vw;
+  column-gap: 2.5vw;
   margin-bottom: 5vh;
 }
 
 .mobileHide {
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
 }
 
 .why_column_header {
@@ -90,8 +105,9 @@
 
 .banner_text {
   color: #f2f2f2;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .why_column_header h1 {
@@ -139,18 +155,17 @@
 .imageBadge_Text {
   margin-top: 1vh;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #262626;
   transition: transform 0.4s ease;
   transform: scale(1); /* Starting scale */
   display: flex;
   text-align: center;
   max-width: 40vw;
-  justify-content: center;
 }
 
 .imageBadge:hover .imageBadge_Text {
-  transform: scale(1.1); /* Text scales after image */
+  transform: scale(1.02); /* Text scales after image */
   transition-delay: 0.08s; /* Waits 300ms after image */
 }
 
@@ -160,25 +175,23 @@
 
 @media (max-width: 768px) {
   .banner {
-    width: 130vw;
     height: 30vh; /* Adjust height as needed */
-  }
-
-  .banner3 {
-    width: 130vw;
+    row-gap: 1vh;
   }
 
   .banner_text {
-    font-size: 1.2rem;
-  }
-
-  .banner2 {
-    width: 130vw;
+    font-size: 1.1rem;
   }
 
   .welcome_column_image {
     max-height: 250px; /* Keeps it nicely scaled within navbar */
-    max-width: 250px; /* Set a reasonable limit */
+    max-width: 200px; /* Set a reasonable limit */
+  }
+
+  .welcome_column_image_container {
+    border: 0.2vw solid gray;
+    max-height: 200px; /* Keeps it nicely scaled within navbar */
+    max-width: 200px; /* Set a reasonable limit */
   }
 
   .welcome_column_content_mobile {
@@ -190,13 +203,10 @@
     align-items: center;
     text-align: center;
     justify-self: center;
-    margin-left: 50%;
-    margin-right: 25%;
-    margin-top: 3vh;
   }
 
   .welcome_column_content {
-    width: 100vw;
+    width: 100%;
     align-items: center;
     padding: 1vh;
   }
@@ -234,7 +244,6 @@
     flex-direction: row;
     display: flex;
     column-gap: 3vw;
-    justify-content: center;
   }
 
   .imageBadge_Image {
@@ -244,23 +253,21 @@
 
   .imageBadge_Text {
     margin-top: 1vh;
-    font-size: 0.45rem;
+    font-size: 0.5rem;
     justify-content: center;
-    max-width: 40vw;
+    max-width: 25vw;
   }
 
   .welcome_column_header {
     font-size: 1.5rem;
     display: flex;
-    width: 25vw;
     text-align: center;
-    padding-left: 10vw;
   }
 
-  .welcome_blurb h3 {
+  .welcome_blurb {
     display: flex;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .what_column_content {
