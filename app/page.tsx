@@ -11,10 +11,10 @@ import CooperationPhoto from "../public/assets/cooperation.png";
 import LocationPhoto from "../public/assets/locationpin.png";
 import HardDiskPhoto from "../public/assets/harddisk.png";
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type ImageBadgeProps = {
-  src: string;
+  src: StaticImageData;
   label: string;
 };
 
