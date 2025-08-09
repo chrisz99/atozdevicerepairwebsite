@@ -24,7 +24,7 @@ export const RepairContactForm: React.FC = () => {
 
   return (
     <div>
-      <form className={localstyles.contact_container} ref={formRef} action="https://formsubmit.co/azrepairspeoria@gmail.com" enctype="multipart/form-data" method="POST" onSubmit={handleSubmit}>
+      <form className={localstyles.contact_container} ref={formRef} action="https://formsubmit.co/azrepairspeoria@gmail.com" encType="multipart/form-data" method="POST" onSubmit={handleSubmit}>
         {/* <input type="hidden" name="_captcha" value="false" /> */}
         <input type="hidden" name="_template" value="basic" />
         <input type="hidden" name="_autoresponse" value="Thank you for submitting a repair with A-Z Repairs." />
