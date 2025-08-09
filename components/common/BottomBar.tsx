@@ -8,7 +8,7 @@ import LocationIcon from "../../public/assets/pin-4-512.png";
 
 export const BottomBar: React.FC = () => {
   return (
-    <div style={{ flex: 1, display: "flex" }} className={styles.bottombar}>
+    <div style={{ display: "flex" }} className={styles.bottombar}>
       <div style={{ display: "flex", flexDirection: "column", rowGap: "1vh" }}>
         <ThemedText imagePosition="left" image={Telephone} imageStyle={styles.bottombar_image} textStyle={styles.bottombar_largeText} text="Call / Text Us" />
         <ThemedText linkable linkType="telephone" link="7322393301" style={{ alignSelf: "center" }} text="Tel: 732-239-3301" textStyle={styles.bottombar_smallText} />

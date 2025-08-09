@@ -1,7 +1,6 @@
 import localstyles from "../app/styles/home.module.css";
 //Photo Imports
 import ApplePhoto from "../public/assets/apple-logo.png";
-import GooglePhoto from "../public/assets/google.png";
 import WindowsPhoto from "../public/assets/windows.png";
 import AndroidPhoto from "../public/assets/android.png";
 import SamsungPhoto from "../public/assets/samsung.png";
@@ -88,7 +87,6 @@ export default function Home() {
           <ImageBadge src={ApplePhoto} label={"Apple"} />
           <ImageBadge src={SamsungPhoto} label={"Samsung"} />
           <ImageBadge src={AndroidPhoto} label={"Android"} />
-          <ImageBadge src={GooglePhoto} label={"Google"} />
 
           <ImageBadge src={WindowsPhoto} label={"And Many More"} />
         </div>

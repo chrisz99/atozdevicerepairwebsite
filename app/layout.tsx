@@ -18,8 +18,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes" />
       </head>
 
-      <body>
-        {" "}
+      <body style={{ padding: 0, margin: 0, overflowX: "hidden" }}>
         <NavBar />
         {children}
         <BottomBar />
