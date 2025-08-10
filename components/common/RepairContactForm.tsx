@@ -74,7 +74,7 @@ export const RepairContactForm: React.FC = () => {
         </label>
 
         <label className={localstyles.contact_input_container_multiarea}>
-          Describe the Issue: ( Try to be as specific as possible, and honesty helps both of us here )
+          Describe the Issue: ( Try to be as specific as possible, honesty helps both of us here )
           <textarea
             placeholder={`When did the issue start?\nDoes it power on?\nDoes it make any sounds?\nDoes the device charge?\nDoes the device have physical damage / liquid damage?\nHas any repair been done before?\nDoes the device charge / hold a charge?\nDoes touch functions still work?\nDoes the device get hot?`}
             className={localstyles.contact_input_multiarea}

@@ -34,6 +34,7 @@
   border: .1vw solid gray;
   width: 30vw;
   height: 20vh;
+  margin-top: 1vh;
   font-size: 1.2rem;
 }
 
@@ -58,6 +59,15 @@
   border-radius: 10px;
   padding: 10px;
   font-size: 1.3rem;
+}
+
+.submitrepair-module__UmEGAG__contact_input_container_multiarea {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  display: flex;
 }
 
 .submitrepair-module__UmEGAG__repairBlurb {
