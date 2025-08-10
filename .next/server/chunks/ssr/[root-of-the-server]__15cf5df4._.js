@@ -78,7 +78,29 @@ function Home() {
                         lineNumber: 16,
                         columnNumber: 9
                     }, this),
-                    " As a solo technician, I specialize in microsoldering and board-level repair, the kind of work most shops won’t even attempt. Whether it’s a no-power issue, water damage, or charging failure, I aim to fix the part that’s broken, not sell you a new one. I’m also currently studying Software Development, and I even built this website from scratch. This isn’t just a side hustle, it’s a blend of passion, precision, and professionalism. Let me help you get your tech back on track, from A to Z."
+                    " As a solo technician, I specialize in microsoldering and board-level repair, the kind of work most shops won’t even attempt. Whether it’s a no-power issue, water damage, or charging failure, I aim to fix the part that’s broken, not sell you a new one.",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/app/about/page.tsx",
+                        lineNumber: 17,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/app/about/page.tsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    " I’m also currently studying Software Development, and I even built this website from scratch. This isn’t just a side hustle, it’s a blend of passion, precision, and professionalism.",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/app/about/page.tsx",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/app/about/page.tsx",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, this),
+                    " Let me help you get your tech back on track, from A to Z."
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.tsx",
@@ -92,12 +114,12 @@ function Home() {
                     children: "Repair Your Device"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.tsx",
-                    lineNumber: 21,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.tsx",
-                lineNumber: 20,
+                lineNumber: 23,
                 columnNumber: 7
             }, this)
         ]

@@ -13,8 +13,11 @@ export default function Home() {
         <br />
         <br /> Most chain stores are focused on speed and sales, not you! They might wipe your data without warning, push unnecessary upgrades, or tell you the only option is to replace your entire motherboard. That’s where I do things differently.
         <br />
-        <br /> As a solo technician, I specialize in microsoldering and board-level repair, the kind of work most shops won’t even attempt. Whether it’s a no-power issue, water damage, or charging failure, I aim to fix the part that’s broken, not sell you a new one. I’m also currently studying
-        Software Development, and I even built this website from scratch. This isn’t just a side hustle, it’s a blend of passion, precision, and professionalism. Let me help you get your tech back on track, from A to Z.
+        <br /> As a solo technician, I specialize in microsoldering and board-level repair, the kind of work most shops won’t even attempt. Whether it’s a no-power issue, water damage, or charging failure, I aim to fix the part that’s broken, not sell you a new one.
+        <br />
+        <br /> I’m also currently studying Software Development, and I even built this website from scratch. This isn’t just a side hustle, it’s a blend of passion, precision, and professionalism.
+        <br />
+        <br /> Let me help you get your tech back on track, from A to Z.
       </p>
 
       <Link href={"/submitrepair"}>
