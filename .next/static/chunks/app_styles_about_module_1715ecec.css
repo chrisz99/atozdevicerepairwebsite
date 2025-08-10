@@ -1,0 +1,45 @@
+/* [project]/app/styles/about.module.css [app-client] (css) */
+.about-module__fdNrIq__aboutBlurb {
+  width: 70%;
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.about-module__fdNrIq__page {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  margin-top: 2vh;
+  display: flex;
+}
+
+.about-module__fdNrIq__page_header {
+  color: #ff8040;
+  margin-bottom: 2vh;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.about-module__fdNrIq__repairBtn {
+  color: #fff;
+  background-color: #0770da;
+  border: none;
+  border-radius: 8px;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-module__fdNrIq__aboutBlurb {
+    text-align: center;
+    width: 90%;
+    font-size: 1.4rem;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=app_styles_about_module_1715ecec.css.map*/

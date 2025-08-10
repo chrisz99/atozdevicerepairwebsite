@@ -1,0 +1,119 @@
+/* [project]/app/styles/pricing.module.css [app-client] (css) */
+.pricing-module__LlELFW__page {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  margin-top: 2vh;
+  display: flex;
+}
+
+.pricing-module__LlELFW__page_header {
+  color: #ff8040;
+  margin-bottom: 2vh;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.pricing-module__LlELFW__pricing_table {
+  border-collapse: collapse;
+  align-self: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 5vh;
+}
+
+.pricing-module__LlELFW__pricing_table th, .pricing-module__LlELFW__pricing_table td {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.pricing-module__LlELFW__pricing_table th {
+  color: #333;
+  background-color: #f5f5f5;
+  font-size: 1.3rem;
+}
+
+.pricing-module__LlELFW__pricing_table {
+  font-size: 1.2rem;
+}
+
+.pricing-module__LlELFW__pricing_table_desc {
+  font-size: 1.1rem;
+}
+
+.pricing-module__LlELFW__warranty_maintext {
+  font-size: 1.3rem;
+}
+
+.pricing-module__LlELFW__warranty_header {
+  color: #ff8040;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.pricing-module__LlELFW__warranty_list {
+  color: #000;
+  row-gap: 2vh;
+  margin: .5vw .5vw .5vw 1vw;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 500;
+  list-style-type: disc;
+}
+
+.pricing-module__LlELFW__warranty_list li {
+  margin-bottom: .5rem;
+}
+
+.pricing-module__LlELFW__repairBtn {
+  color: #fff;
+  background-color: #0770da;
+  border: none;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .pricing-module__LlELFW__warranty_maintext {
+    justify-self: center;
+    width: 90%;
+    font-size: 1.3rem;
+  }
+
+  .pricing-module__LlELFW__warranty_header {
+    width: 100%;
+    margin-bottom: 2vh;
+    font-size: 2.25rem;
+  }
+
+  .pricing-module__LlELFW__warranty_list {
+    font-size: 1.3rem;
+  }
+
+  .pricing-module__LlELFW__page {
+    min-height: 250vh;
+  }
+
+  .pricing-module__LlELFW__page_header {
+    text-align: center;
+    width: 100%;
+    font-size: 2.7rem;
+  }
+
+  .pricing-module__LlELFW__pricing_table {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .pricing-module__LlELFW__pricing_table th, .pricing-module__LlELFW__pricing_table_desc {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=app_styles_pricing_module_805b1358.css.map*/
