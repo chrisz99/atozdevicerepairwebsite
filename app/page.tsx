@@ -12,10 +12,16 @@ import HardDiskPhoto from "../public/assets/harddisk.png";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
+import { Metadata } from "next";
 
 type ImageBadgeProps = {
   src: StaticImageData;
   label: string;
+};
+
+export const metadata: Metadata = {
+  title: "A to Z Device Repair",
+  description: "A to Z Device Repair, Device Repair in AZ, A to Z",
 };
 
 export default function Home() {

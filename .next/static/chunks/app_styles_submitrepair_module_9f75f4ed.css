@@ -1,0 +1,136 @@
+/* [project]/app/styles/submitrepair.module.css [app-client] (css) */
+.submitrepair-module__UmEGAG__page {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  margin-top: 2vh;
+  display: flex;
+}
+
+.submitrepair-module__UmEGAG__page_header {
+  color: #ff8040;
+  margin-bottom: 2vh;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.submitrepair-module__UmEGAG__contact_container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2vh;
+  display: flex;
+}
+
+.submitrepair-module__UmEGAG__contact_input {
+  border: .1vw solid gray;
+  width: 10vw;
+  height: 2vh;
+  font-size: 1rem;
+}
+
+.submitrepair-module__UmEGAG__contact_input_multiarea {
+  border: .1vw solid gray;
+  width: 30vw;
+  height: 20vh;
+  font-size: 1.2rem;
+}
+
+.submitrepair-module__UmEGAG__contact_input_selector {
+  border: .1vw solid gray;
+  width: 10vw;
+  height: 3vh;
+  font-size: 1rem;
+}
+
+.submitrepair-module__UmEGAG__contact_input_container {
+  flex-direction: column;
+  row-gap: .5vh;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+}
+
+.submitrepair-module__UmEGAG__submit_btn {
+  color: #fff;
+  background-color: #0069d2;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.submitrepair-module__UmEGAG__repairBlurb {
+  text-align: center;
+  width: 40%;
+  margin-bottom: 4vh;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .submitrepair-module__UmEGAG__contact_container {
+    flex-direction: column;
+    row-gap: 2vh;
+    display: flex;
+  }
+
+  .submitrepair-module__UmEGAG__contact_input_container {
+    font-size: 1rem;
+  }
+
+  .submitrepair-module__UmEGAG__page_header {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  .submitrepair-module__UmEGAG__contact_input {
+    border: .1vw solid gray;
+    width: 45vw;
+    height: 3vh;
+  }
+
+  .submitrepair-module__UmEGAG__contact_input_selector {
+    border: .1vw solid gray;
+    width: 50vw;
+    height: 3.3vh;
+  }
+
+  .submitrepair-module__UmEGAG__contact_input_multiarea {
+    border: .1vw solid gray;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20vh;
+    margin-top: 1vh;
+    font-size: 1rem;
+    display: flex;
+  }
+
+  .submitrepair-module__UmEGAG__contact_input_container_multiarea {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .submitrepair-module__UmEGAG__submit_btn {
+    color: #fff;
+    background-color: #0069d2;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+
+  .submitrepair-module__UmEGAG__repairBlurb {
+    width: 90%;
+    margin-bottom: 4vh;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+/*# sourceMappingURL=app_styles_submitrepair_module_9f75f4ed.css.map*/

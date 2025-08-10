@@ -25,12 +25,22 @@
 .contact_input {
   border: 0.1vw solid gray;
   width: 10vw;
+  height: 2vh;
+  font-size: 1rem;
 }
 
 .contact_input_multiarea {
   border: 0.1vw solid gray;
   width: 30vw;
   height: 20vh;
+  font-size: 1.2rem;
+}
+
+.contact_input_selector {
+  border: 0.1vw solid gray;
+  width: 10vw;
+  height: 3vh;
+  font-size: 1rem;
 }
 .contact_input_container {
   flex-direction: column;
@@ -50,9 +60,10 @@
 
 .repairBlurb {
   width: 40%;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   text-align: center;
   margin-bottom: 4vh;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -60,7 +71,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 2vh;
-    margin-left: 30vw;
   }
 
   .contact_input_container {
@@ -68,17 +78,53 @@
   }
   .page_header {
     font-size: 2.2rem;
-    margin-left: 25vw;
     font-weight: 500;
   }
   .contact_input {
     border: 0.1vw solid gray;
+    width: 45vw;
+    height: 3vh;
+  }
+
+  .contact_input_selector {
+    border: 0.1vw solid gray;
     width: 50vw;
+    height: 3.3vh;
   }
 
   .contact_input_multiarea {
     border: 0.1vw solid gray;
-    width: 100vw;
+    width: 90%;
     height: 20vh;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1vh;
+  }
+
+  .contact_input_container_multiarea {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .submit_btn {
+    background-color: #0069d2;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+  }
+
+  .repairBlurb {
+    width: 90%;
+    font-size: 1rem;
+    margin-bottom: 4vh;
+    font-weight: 500;
   }
 }

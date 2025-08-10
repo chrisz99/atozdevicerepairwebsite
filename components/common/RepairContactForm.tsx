@@ -1,3 +1,4 @@
+"use client";
 import { useRef } from "react";
 import localstyles from "../../app/styles/submitrepair.module.css";
 
@@ -51,7 +52,7 @@ export const RepairContactForm: React.FC = () => {
         <div style={{ flexDirection: "row", display: "flex", columnGap: "1vw" }}>
           <label className={localstyles.contact_input_container}>
             Device Type:
-            <select className={localstyles.contact_input} name="device_type" required>
+            <select className={localstyles.contact_input_selector} name="device_type" required>
               <option value="">Select a device</option>
               <option value="Phone">Phone</option>
               <option value="Tablet">Tablet</option>
@@ -68,11 +69,11 @@ export const RepairContactForm: React.FC = () => {
         </div>
 
         <label className={localstyles.contact_input_container}>
-          ( Optional ) Device Serial:
+          Device Serial: ( Optional )
           <input className={localstyles.contact_input} name="device_serial" />
         </label>
 
-        <label className={localstyles.contact_input_container}>
+        <label className={localstyles.contact_input_container_multiarea}>
           Describe the Issue: ( Try to be as specific as possible, and honesty helps both of us here )
           <textarea
             placeholder={`When did the issue start?\nDoes it power on?\nDoes it make any sounds?\nDoes the device charge?\nDoes the device have physical damage / liquid damage?\nHas any repair been done before?\nDoes the device charge / hold a charge?\nDoes touch functions still work?\nDoes the device get hot?`}
@@ -84,7 +85,7 @@ export const RepairContactForm: React.FC = () => {
         </label>
 
         <label className={localstyles.contact_input_container}>
-          ( Optional ) Image Upload:
+          Image Upload: (Optional)
           <input className={localstyles.contact_input} type="file" name="attachment" multiple accept="image/png, image/jpeg" />
         </label>
 
