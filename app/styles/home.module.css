@@ -22,7 +22,14 @@
   flex-direction: column;
   display: flex;
   align-items: center;
-  padding: 1vh;
+}
+
+.banner3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #e5e5e5;
+  flex-direction: column;
 }
 
 .welcome_column {
@@ -92,15 +99,6 @@
   color: black;
   margin-bottom: 4vh;
   display: flex;
-}
-
-.banner3 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #e5e5e5;
-  flex-direction: column;
-  padding: 1vh;
 }
 
 .banner_text {
@@ -189,15 +187,15 @@
   }
 
   .welcome_column_image_container {
-    border: 0.2vw solid gray;
-    max-height: 200px; /* Keeps it nicely scaled within navbar */
+    border: 0.5vw solid gray;
+    max-height: 250px; /* Keeps it nicely scaled within navbar */
     max-width: 200px; /* Set a reasonable limit */
   }
 
   .welcome_column_content_mobile {
     display: flex;
     width: 100%;
-    padding: 0.5rem;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -218,7 +216,7 @@
   .repairBtn_Mobile {
     padding: 12px 24px;
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
     background-color: #0770da;
     color: white;
     border: none;
@@ -243,7 +241,7 @@
     margin-top: 2vh;
     flex-direction: row;
     display: flex;
-    column-gap: 3vw;
+    column-gap: 2.5vw;
   }
 
   .imageBadge_Image {
@@ -253,13 +251,13 @@
 
   .imageBadge_Text {
     margin-top: 1vh;
-    font-size: 0.5rem;
+    font-size: 0.45rem;
     justify-content: center;
-    max-width: 25vw;
+    max-width: 30vw;
   }
 
   .welcome_column_header {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: flex;
     text-align: center;
   }
