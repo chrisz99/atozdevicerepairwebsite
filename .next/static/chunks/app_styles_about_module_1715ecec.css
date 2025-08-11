@@ -17,8 +17,9 @@
 
 .about-module__fdNrIq__page_header {
   color: #ff8040;
+  text-align: center;
   margin-bottom: 2vh;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -27,8 +28,8 @@
   background-color: #0770da;
   border: none;
   border-radius: 8px;
-  margin-top: 5vh;
-  margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
   padding: 12px 24px;
   font-size: 1.5rem;
   font-weight: bold;
@@ -38,7 +39,7 @@
   .about-module__fdNrIq__aboutBlurb {
     text-align: center;
     width: 90%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     display: flex;
   }
 }
