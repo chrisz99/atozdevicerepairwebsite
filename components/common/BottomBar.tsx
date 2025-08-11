@@ -11,7 +11,7 @@ export const BottomBar: React.FC = () => {
     <div className={styles.bottombar}>
       <div style={{ display: "flex", flexDirection: "column", rowGap: "1vh" }}>
         <ThemedText imagePosition="left" image={Telephone} imageStyle={styles.bottombar_image} textStyle={styles.bottombar_largeText} text="Call / Text Us" />
-        <ThemedText linkable linkType="telephone" link="7322393301" style={{ alignSelf: "center" }} text="Tel: 732-239-3301" textStyle={styles.bottombar_smallText} />
+        <ThemedText linkable linkType="telephone" link="6233244421" style={{ alignSelf: "center" }} text="Tel: 623-324-4421" textStyle={styles.bottombar_smallText} />
       </div>
 
       <div className={styles.divider} />

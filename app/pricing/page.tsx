@@ -1,5 +1,11 @@
 import Link from "next/link";
 import localstyles from "../styles/pricing.module.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "A to Z Repair Pricing Guidelines",
+  description: "Pricing Guidelines for A to Z Repair",
+};
 
 export default function Pricing() {
   return (

@@ -1,23 +1,35 @@
 import Link from "next/link";
 import localstyles from "../styles/about.module.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About A to Z Repairs | Computer, Laptop, and Microsoldering in Peoria, AZ",
+  description: "Learn about A to Z Repairs in Peoria, Arizona. We specialize in laptop repair, desktop repair, microsoldering, and logic board repair, with phone and tablet repair as a secondary service.",
+};
 
 export default function Home() {
   return (
     <div className={localstyles.page}>
-      <h1 className={localstyles.page_header}>About Us</h1>
+      <h1 className={localstyles.page_header}>About A to Z Repairs – Peoria, AZ</h1>
       <p className={localstyles.aboutBlurb}>
-        At A to Z Repairs, you’re not dealing with a franchise or a middleman, you’re talking directly to the person who will be fixing your device. I’m based in Peoria, Arizona, offering local pickup and drop-off service to make repairs as convenient as possible.
+        At A to Z Repairs, you’re not dealing with a franchise or a middleman you’re speaking directly with the technician who will repair your device. Based in Peoria, Arizona, I offer local pickup and drop-off service for hassle-free computer, laptop, and motherboard repair.
         <br />
-        <br />I started as an Apple Authorized Technician, where I gained extensive experience working on everything from MacBooks and iPhones to logic boards and complex diagnostics. But I also saw how many repairs were handled: devices were often declared “non-repairable” and customers were
-        charged huge premiums for full part replacements, even when a simple fix might have worked.
         <br />
-        <br /> Most chain stores are focused on speed and sales, not you! They might wipe your data without warning, push unnecessary upgrades, or tell you the only option is to replace your entire motherboard. That’s where I do things differently.
+        My background as an Apple Authorized Technician gave me years of experience repairing everything from MacBooks and PCs to logic boards and complex hardware issues. I saw how many shops quickly label devices as “non-repairable” and push expensive part replacement sometimes wiping important
+        data in the process. That’s not how I operate.
         <br />
-        <br /> As a solo technician, I specialize in microsoldering and board-level repair, the kind of work most shops won’t even attempt. Whether it’s a no-power issue, water damage, or charging failure, I aim to fix the part that’s broken, not sell you a new one.
         <br />
-        <br /> I’m also currently studying Software Development, and I even built this website from scratch. This isn’t just a side hustle, it’s a blend of passion, precision, and professionalism.
+        Unlike chain repair stores, I focus on board-level repair and microsoldering the advanced fixes that most shops won’t attempt. Whether it’s no power, charging port replacement, water damage repair, or motherboard troubleshooting, I aim to fix the exact problem instead of replacing entire
+        assemblies.
         <br />
-        <br /> Let me help you get your tech back on track, from A to Z.
+        <br />
+        I also offer phone and tablet repair as a secondary service, including screen replacement, battery swaps, and more.
+        <br />
+        <br />
+        In addition to electronics repair, I’m studying Software Development and I even built this website from scratch. A to Z Repairs is more than a business; it’s the combination of passion, precision, and professionalism.
+        <br />
+        <br />
+        If you need reliable computer, laptop, or motherboard repair, including advanced microsoldering services, I’m here to help. I serve customers throughout Peoria, Glendale, Surprise, Phoenix, Sun City, and the surrounding Arizona areas. Let’s get your tech back on track, from A to Z.
       </p>
 
       <Link href={"/submitrepair"}>

@@ -76,7 +76,7 @@
 
 .home-module__OXf3zW__why_column_content {
   flex-direction: row;
-  column-gap: 2.5vw;
+  column-gap: 3vw;
   margin-bottom: 5vh;
   display: flex;
 }
@@ -88,12 +88,13 @@
   align-items: center;
   width: 100%;
   font-size: 1.5rem;
+  font-weight: 500;
   display: flex;
 }
 
 .home-module__OXf3zW__why_column_header {
   color: #000;
-  margin-bottom: 4vh;
+  margin-bottom: 6vh;
   font-size: 3rem;
   display: flex;
 }
@@ -124,6 +125,7 @@
   background-color: #0770da;
   border: none;
   border-radius: 8px;
+  margin-top: 4vh;
   padding: 12px 24px;
   font-size: 1.5rem;
   font-weight: bold;
@@ -140,7 +142,7 @@
 
 .home-module__OXf3zW__imageBadge_Image {
   max-width: 250px;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 .home-module__OXf3zW__imageBadge:hover {
@@ -150,8 +152,8 @@
 .home-module__OXf3zW__imageBadge_Text {
   color: #262626;
   text-align: center;
-  max-width: 40vw;
-  margin-top: 1vh;
+  max-width: 20vw;
+  margin-top: 3vh;
   font-size: 1.5rem;
   font-weight: 600;
   transition: transform .4s;

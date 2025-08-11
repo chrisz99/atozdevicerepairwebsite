@@ -1,9 +1,12 @@
 {
   "pages": {
-    "/_not-found/page": [
+    "/about/page": [
       "static/chunks/app_styles_global_module_742020b4.css",
       "static/chunks/node_modules_next_dist_4fe55c6b._.js",
       "static/chunks/app_layout_tsx_68b267f5._.js",
+      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_0d77ad32.js",
+      "static/chunks/app_styles_about_module_1715ecec.css",
+      "static/chunks/app_about_page_tsx_0d77ad32._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6aaa83c7._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js",
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_d575f738.js",
@@ -14,13 +17,13 @@
       "static/chunks/_e69f0d32._.js",
       "static/chunks/_01f48b92._.js"
     ],
-    "/about/page": [
+    "/contact/page": [
       "static/chunks/app_styles_global_module_742020b4.css",
       "static/chunks/node_modules_next_dist_4fe55c6b._.js",
       "static/chunks/app_layout_tsx_68b267f5._.js",
       "static/chunks/node_modules_next_dist_client_components_builtin_global-error_0d77ad32.js",
-      "static/chunks/app_styles_about_module_1715ecec.css",
-      "static/chunks/app_about_page_tsx_0d77ad32._.js",
+      "static/chunks/app_styles_contact_module_86a9eeab.css",
+      "static/chunks/app_contact_page_tsx_0d77ad32._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6aaa83c7._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js",
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_d575f738.js",

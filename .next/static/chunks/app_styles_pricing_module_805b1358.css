@@ -44,7 +44,7 @@
 }
 
 .pricing-module__LlELFW__warranty_maintext {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .pricing-module__LlELFW__warranty_header {
@@ -57,7 +57,7 @@
   color: #000;
   row-gap: 2vh;
   margin: .5vw .5vw .5vw 1vw;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-style: italic;
   font-weight: 500;
   list-style-type: disc;
@@ -86,6 +86,11 @@
     font-size: 1.3rem;
   }
 
+  .pricing-module__LlELFW__repairBtn {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
   .pricing-module__LlELFW__warranty_header {
     width: 100%;
     margin-bottom: 2vh;
@@ -103,7 +108,8 @@
   .pricing-module__LlELFW__page_header {
     text-align: center;
     width: 100%;
-    font-size: 2.7rem;
+    margin-bottom: 3vh;
+    font-size: 3.3rem;
   }
 
   .pricing-module__LlELFW__pricing_table {
