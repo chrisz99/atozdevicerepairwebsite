@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className={localstyles.page}>
-      <h1 className={localstyles.page_header}>About A to Z Repairs – Peoria, AZ</h1>
+      <h1 className={localstyles.page_header}>About A to Z Repairs</h1>
       <p className={localstyles.aboutBlurb}>
         At A to Z Repairs, you’re not dealing with a franchise or a middleman you’re speaking directly with the technician who will repair your device. Based in Peoria, Arizona, I offer local pickup and drop-off service for hassle-free computer, laptop, and motherboard repair.
         <br />

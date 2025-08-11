@@ -31,4 +31,8 @@
     width: 90%;
     margin-bottom: 4vh;
   }
+
+  .page_header {
+    font-size: 3rem;
+  }
 }
